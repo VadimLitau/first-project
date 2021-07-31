@@ -1,6 +1,8 @@
 *{
   margin: 0;
   padding: 0;
+  
+  
 }
 .page {
   min-width: 1100px;
@@ -8,15 +10,34 @@
   /* поэтому выше установлена минимальная ширина страницы */
   max-width: 1600px;
   /* выше установили ограничение по максимальной ширине */
-  margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Inter', Arial, sans-serif;
   color: #000;
   box-sizing: border-box;
-
-
+  margin:0 auto;
+  
+  
 }
+/*__Начало - Стили для микса__*/
+.air-margin {
+  margin: 100px 0;
+}
+
+
+/*__Конец - Стили для микса__*/
+
 /*Начало - Первый блок,научиться учиться*/
+
+
+/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+@keyframes rotate_animation{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
 .header {
   height: 100vh;
   min-height: 600px;
@@ -28,17 +49,6 @@
   background-color: #f2f2f2;
   overflow: hidden;
 }
-
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-@keyframes rotate_animation{
-  from{
-    transform: rotate(0deg);
-  }
-  to{
-    transform: rotate(360deg);
-  }
-}
-
 .header__square-pic {
   height: 568px;
   width: 568px;
@@ -68,18 +78,14 @@
   text-decoration: none;
 }
 
-
-
 .header__subtitle{
  position: absolute;
  left: 64px;
  bottom: 30px;
  width: 388px;
-}
-
-.header__subtitle_font_style{
-  line-height: 25px;
-  font-size: 18px;
+ line-height: 25px;
+ font-size: 18px;
+ font-weight: normal;
 }
 
 .header__logo_place{
@@ -107,8 +113,7 @@
   flex-direction: row;
   justify-content: space-around;
   width: 100%;
-
-  margin: 100px 0;
+  
 }
 .two-columns{
   display: flex;
@@ -125,16 +130,6 @@
   color: #2f80ed;
 }
 
-.two-columns__brief_font_edit{
-  
-}
-
-.two-columns__paragraph_font_edit{
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-}
-
 .two-columns__paragraph_indent{
   padding: 30px 0;
 }
@@ -148,6 +143,9 @@
 .two-columns__main-text{
   width: 80%;
   min-width: 784px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
 }
 
 /*Конец - Второй блок, главные проблемы в обучении*/
@@ -155,7 +153,7 @@
 /*Начало - Третий блок, техника обучения*/
 .techniques {
   width: 80%;
-  margin: 0 auto 100px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -167,6 +165,7 @@
   font-size: 60px;
   font-weight: bold;
   width: 60%;
+  padding-bottom: 20px;
 }
 
 .section-title_indent {
@@ -215,6 +214,7 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
+  padding-bottom: 16px;
 }
 
 .cards__description {
@@ -223,13 +223,6 @@
   font-weight: normal;
 }
 
-.cards__title_indent {
-  padding-bottom: 16px;
-}
-
-.cards__item_another_aligne{
-  align-self: center;
-}
 /*Конец - Третий блок, техника обучения*/
 /*________________*/
 /*Начало - Четвертый блок, цифры и факты*/
@@ -347,7 +340,7 @@
 }
 /*Конец - Пятый блок, Принципы обучения*/
 /*________________*/
-/*Начало - Шустой блок, Полезные ресурсы*/
+/*Начало - Шестой блок, Полезные ресурсы*/
 .resources {
   display: flex;
   flex-direction: column;
@@ -468,24 +461,12 @@
 /* и элемента с модификатором вида ключ-значение */
 /*Начало - Восьмой блок, Video*/
 .video {
-  margin:0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around
-}
-
-.video_margin-top {
-  margin-top: 100px;
-}
-
-.video_position_indent {
   position: relative;
   top:-100px;
-}
-
-.video__title, .video__subtitle{
-  width:60%;
 }
 
 .video__title {
@@ -493,12 +474,14 @@
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
+  width:60%;
 }
 .video__subtitle {
   padding-bottom: 50px;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  width:60%;
 }
 
 .video__iframes {
@@ -507,17 +490,12 @@
   margin: 0 auto;
 }
 
-.video__iframe {
-  width: 515px;
-  height: 316px;
-}
-
-.video__irame_padding_right {
+.video__irame_indent_right {
   padding-right: 20px;
 }
 /*Конец - Восьмой блок, Video*/
 /*________________*/
-/*Начало - девятый блок, Video*/
+/*Начало - девятый блок, history*/
 .history {
   display: flex;
   flex-direction: row;
