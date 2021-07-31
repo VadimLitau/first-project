@@ -57,6 +57,9 @@
   width: 730px;
   height: 600px;
   padding-left: 64px;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: bold;
 
 }
 
@@ -65,11 +68,7 @@
   text-decoration: none;
 }
 
-.header__title_font_style{
-  line-height: 96px;
-  font-size: 102px;
-  font-weight: bold;
-}
+
 
 .header__subtitle{
  position: absolute;
@@ -120,13 +119,14 @@
 
 .two-columns__brief{
   width: 175px;
-}
-
-.two-columns__brief_font_edit{
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
   color: #2f80ed;
+}
+
+.two-columns__brief_font_edit{
+  
 }
 
 .two-columns__paragraph_font_edit{
