@@ -1,0 +1,4 @@
+.footer__columns-wrap_links {
+  display: flex;
+  flex-direction: column;
+}

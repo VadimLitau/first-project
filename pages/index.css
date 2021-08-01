@@ -1,5 +1,6 @@
 /*Начало - Общие стили*/
 @import url(main.css);
+@import url(normalize.css);
 /*Конец - общие стили*/
 /*Начало - Первый блок, научиться учиться*/
 @import url(../blocks/header/header.css);
@@ -44,3 +45,62 @@
 /*Конец - девятый блок, oakley*/
 /*________________*/
 /*Начало - деcятый блок, Feynman*/
+@import url(../blocks/Content/feynman/feynman.css);
+@import url(../blocks/Content/feynman/__title/feynman__title.css);
+@import url(../blocks/Content/feynman/__subtitle/feynman__subtitle.css);
+@import url(../blocks/Content/feynman/__link/feynman__link.css);
+/*Конец - деcятый блок, Feynman*/
+/*________________*/
+/*Начало - Четвертый блок, цифры и факты*/
+@import url(../blocks/Content/digits/digits.css);
+@import url(../blocks/Content/digits/table/table.css);
+@import url(../blocks/Content/digits/table/__cell/table__cell.css);
+@import url(../blocks/Content/digits/table/__cell/_indent/table__cell_indent.css);
+@import url(../blocks/Content/digits/table/__cell/__heading/table__heading.css);
+@import url(../blocks/Content/digits/table/__cell/__text/table__text.css);
+@import url(../blocks/Content/digits/table/__cell/__text/_indent/table__text_indent.css);
+/*Конец - Четвертый блок, цифры и факты*/
+/*________________*/
+/*Начало - Одиннадцатый блок, Салман Хан*/
+@import url(../blocks/Content/khan/__container/khan__container.css);
+@import url(../blocks/Content/khan/__author/khan__author.css);
+@import url(../blocks/Content/khan/__title/khan__title.css);
+@import url(../blocks/Content/khan/__quote/khan__quote.css);
+@import url(../blocks/Content/khan/__qoute-author/khan__qoute-author.css);
+@import url(../blocks/Content/khan/__quote-author-subline/khan__quote-author-subline.css);
+@import url(../blocks/Content/khan/__book-container/khan__book-container.css);
+@import url(../blocks/Content/khan/__container/__book-pic/khan__book-pic.css);
+@import url(../blocks/Content/khan/__container/__buy-link/khan__buy-link.css);
+/*Конец - Одиннадцатый блок, Салман Хан*/
+/*________________*/
+/*Начало - Пятый блок, Принципы обучения*/
+@import url(../blocks/Content/kaufman/kaufman.css);
+@import url(../blocks/Content/kaufman/__triangle/kaufman__triangle.css);
+@import url(../blocks/Content/kaufman/section-title_theme_dark/section-title_theme_dark.css);
+@import url(../blocks/Content/kaufman/table_theme_dark/table__cell_theme_dark/table__cell_theme_dark.css);
+@import url(../blocks/Content/kaufman/table_theme_dark/table__cell_theme_dark/_indent/table__cell_theme_dark_indent.css);
+@import url(../blocks/Content/kaufman/table_theme_dark/table__cell_theme_dark/table__text_theme_dark/table__text_theme_dark.css);
+@import url(../blocks/Content/kaufman/table_theme_dark/table_theme_dark.css);
+@import url(../blocks/Content/kaufman/section-subtitle_theme_dark/section-subtitle_theme_dark.css);
+/*Конец - Пятый блок, Принципы обучения*/
+/*________________*/
+/*Начало - Шестой блок, Полезные ресурсы*/
+@import url(../blocks/Content/resources/resources.css);
+@import url(../blocks/Content/resources/_padding-title_indent/resources_padding-title_indent.css);
+@import url(../blocks/Content/resources/__padding-subtitle_indent/resources__padding-subtitle_indent.css);
+@import url(../blocks/Content/resources/__logo-zone/resources__logo-zone.css);
+@import url(../blocks/Content/resources/__logo-zone/__logo/resources__logo.css);
+/*Конец - Шестой блок, Полезные ресурсы*/
+/*________________*/
+/*Начало - Седьмой блок, footer*/
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__columns/footer__columns.css);
+@import url(../blocks/footer/__columns/logo_place_footer/logo_place_footer.css);
+@import url(../blocks/footer/__columns/__author/footer__author.css);
+@import url(../blocks/footer/__columns/__columns-wrap/footer__columns-wrap.css);
+@import url(../blocks/footer/__columns/__columns-wrap/_content_info/footer__columns-wrap_content_info.css);
+@import url(../blocks/footer/__columns/__columns-wrap/_heading/footer__columns-wrap_heading.css);
+@import url(../blocks/footer/__columns/__columns-wrap/_links/footer__columns-wrap_links.css);
+@import url(../blocks/footer/__columns/__columns-wrap/_link/footer__column-wrap_link.css);
+@import url(../blocks/footer/__columns/__columns-wrap/_content_social/footer__columns-wrap_content_social.css);
+@import url(../blocks/footer/__columns/_content_copyright/footer__columns_content_copyright.css);
