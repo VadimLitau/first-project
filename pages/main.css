@@ -1,0 +1,77 @@
+.link_style_edit {
+  opacity:100%;
+  transition: opacity 2s ease;
+  text-decoration: none;
+  color: #2f80ed;
+}
+
+.link_style_edit:hover {
+  opacity:60%;
+}
+
+*{
+  margin: 0;
+}
+
+.page {
+  min-width: 1100px;
+  /* мы ещё не умеем делать мобильную версию сайта, */
+  /* поэтому выше установлена минимальная ширина страницы */
+  max-width: 1600px;
+  /* выше установили ограничение по максимальной ширине */
+  /* выше для экранов больше 1600px отцентрировали весь контент */
+  font-family: 'Inter', Arial, sans-serif;
+  color: #000;
+  box-sizing: border-box;
+  margin:0 auto;
+}
+/*__Начало - Стили для микса__*/
+.air-margin {
+  margin: 100px 0;
+}
+.video-air{
+  margin-top: 200px;
+}
+
+.oakley_margin_indent{
+  margin: 260px auto -160px;
+}
+
+.section-subtitle_indent {
+  padding: 20px 0 60px;
+}
+
+.resources_air{
+  margin: 100px auto 217px;
+}
+
+.section-title {
+  display: flex;
+  justify-content: center;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+  width: 60%;
+  padding-bottom: 20px;
+}
+
+.section-subtitle {
+  display: flex;
+  justify-content: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  width: 60%;
+}
+/*__Конец - Стили для микса__*/
+/*Начало - keyframes*/
+
+@keyframes rotate_animation{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+/*Конец - keyframes */

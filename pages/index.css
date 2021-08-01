@@ -1,0 +1,46 @@
+/*Начало - Общие стили*/
+@import url(main.css);
+/*Конец - общие стили*/
+/*Начало - Первый блок, научиться учиться*/
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__square-pic/header__square-pic.css);
+@import url(../blocks/header/__subtitle/header__subtitle.css);
+@import url(../blocks/header/__main-illustration/header__main-illustration.css);
+/*Конец - Первый блок, научиться учиться*/
+/*________________*/
+/*Начало - Второй блок, главные проблемы в обучении*/
+@import url(../blocks/Content/description/description.css);
+@import url(../blocks/Content/description/two-columns/two-columns.css);
+@import url(../blocks/Content/description/two-columns/__brief/two-columns__brief.css);
+@import url(../blocks/Content/description/two-columns/__main-text/two-columns__main-text.css);
+@import url(../blocks/Content/description/two-columns/__paragraph/_indent/two-columns__paragraph_indent.css);
+@import url(../blocks/Content/description/two-columns/__span-accent/two-columns__span-accent.css);
+/*Конец - Второй блок, главные проблемы в обучении*/
+/*________________*/
+/*Начало - Третий блок, техника обучения*/
+@import url(../blocks/Content/techniques/techniques.css);
+@import url(../blocks/Content/techniques/cards/cards.css);
+@import url(../blocks/Content/techniques/cards/__item/cards__item.css);
+@import url(../blocks/Content/techniques/cards/__item/__image/cards__image.css);
+@import url(../blocks/Content/techniques/cards/__item/__image/_edit/cards__image_edit.css);
+@import url(../blocks/Content/techniques/cards/__item/cards__title/cards__title.css);
+@import url(../blocks/Content/techniques/cards/__item/cards__title/_indent/cards__title_indent.css);
+@import url(../blocks/Content/techniques/cards/__item/_indent/card__item_indent.css);
+@import url(../blocks/Content/techniques/cards/__description/cards__description.css);
+/*Конец - Третий блок, техника обучения*/
+/*________________*/
+/*Начало - Восьмой блок, Video*/
+@import url(../blocks/Content/video/video.css);
+@import url(../blocks/Content/video/__title/video__title.css);
+@import url(../blocks/Content/video/__subtitle/video__subtitle.css);
+@import url(../blocks/Content/video/__iframes/video__iframes.css);
+@import url(../blocks/Content/video/__iframes/__iframe/_indent/video__irame_indent.css);
+/*Конец - Восьмой блок, Video*/
+/*________________*/
+/*Начало - девятый блок, oakley*/
+@import url(../blocks/Content/oakley/oakley.css);
+/*Конец - девятый блок, oakley*/
+/*________________*/
+/*Начало - деcятый блок, Feynman*/

@@ -1,0 +1,322 @@
+/*Начало - Четвертый блок, цифры и факты*/
+.digits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width:60%;
+  padding-bottom: 100px;
+}
+
+.table {
+  width: 1100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.table__text {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.table__text_indent{
+  padding-top: 20px;
+}
+
+.table__cell {
+  width: 250px;
+}
+
+.table__cell_indent {
+ padding-bottom: 60px;
+}
+
+.table__heading{
+  padding-bottom: 20px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+/*Конец - Четвертый блок, цифры и факты*/
+/*________________*/
+/*Начало - Пятый блок, Принципы обучения*/
+.kaufman {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1f1f1f;
+  padding: 90px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.kaufman__triangle{
+  position: absolute;
+  top: 0px;
+  right: -210px;
+  z-index: 0;
+  animation: rotate_animation 20s infinite linear;
+}
+
+.section-title_theme_dark {
+  color: white;
+  padding-bottom: 20px;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+  margin: 0;
+  z-index: 1;
+}
+
+.table_theme_dark{
+  z-index: 1;
+}
+
+.section-subtitle_theme_dark {
+  color: white;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  z-index: 1;
+}
+
+.table__heading_theme_dark {
+  padding-bottom: 20px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.table__cell_theme_dark_indent {
+  padding: 80px 0;
+}
+
+.table__text_theme_dark {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+}
+/*Конец - Пятый блок, Принципы обучения*/
+/*________________*/
+/*Начало - Шестой блок, Полезные ресурсы*/
+.resources {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resources__padding-title_indent {
+  padding-bottom: 20px;
+}
+
+.resources__padding-subtitle_indent{
+  padding-bottom: 80px;
+
+}
+
+.resources__logo-zone {
+  display: flex;
+  flex-direction: row;
+  width: 1100px;
+}
+
+.resources__logo {
+  width: 270px;
+  height: 38px;
+  text-align: center;
+}
+/*Конец - Шестой блок, Полезные ресурсы*/
+/*________________*/
+/*Начало - Седьмой блок, footer*/
+.footer {/**/
+  background-color: #1f1f1f;
+  color: #fff;
+}
+
+.footer__columns {
+  width: 90%;
+  margin: 0 auto;
+  min-height: 350px;
+}
+
+.logo_place_footer {
+  width: 183px;
+  height: 35px;
+}
+
+.footer__column-link {
+  padding-bottom: 10px;
+}
+
+.footer__columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-basis: 711px;
+}
+
+.footer__columns_wrap{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-basis: 711px;
+  margin: 60px 0 40px;
+}
+
+.footer__column-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__columns_content_copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 60px 0 40px;
+}
+
+.footer__author {
+  padding: 18px 0;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__column-link {
+  text-decoration: none;
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer__column-heading {
+  padding-bottom: 20px;
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer__columns_content_info .footer__columns_content_social{
+  padding-bottom: 16px;
+}
+/*Конец - Седьмой блок, footer*/
+
+
+
+
+
+
+
+
+
+
+
+
+.feynman {
+  background-image: url(../images/feinman.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 867px 637px;
+  position: relative;
+  height: 750px;
+}
+
+.feynman__title {
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  width: 648px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+.feynman__subtitle {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  margin: 0 auto;
+  text-align: center;
+}
+.feynman__link {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #2f80ed;
+}
+/*Конец - деcятый блок, Feynman*/
+/*________________*/
+/*Начало - Одиннадцатый блок, Салман Хан*/
+.khan__container{
+  width: 80%;
+  margin:0 auto;
+  padding-top: 100px;}
+
+.khan__author {
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.khan__title {
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.khan__quote {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  width: 790px;
+  padding: 50px 0 36px;
+}
+
+.khan__qoute-author{
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.khan__quote-author-subline {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: normal;
+  padding: 10px 0 68px;
+}
+
+.khan__buy-link {
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  color: #2f80ed;
+  text-decoration: none;
+  padding-left: 48px;
+}
+
+.khan__book-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+
+}
+
+.khan__book-pic{
+  height: 620px;
+  width: 608px;
+}
+/*Конец - Одиннадцатый блок, Салман Хан*/
+/*________________*/
